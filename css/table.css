@@ -1,0 +1,42 @@
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
+.main-color{
+    color:darkslategrey;
+}
+.navbar-default {
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+table{
+    letter-spacing: 1.2px;
+    background-color: #020024;
+}
+td{
+    background-color: #020024;
+    color: white;
+    text-align: center;
+}
+button{
+    border:none;
+    background: #020024;
+    color:#d5363f;
+}
+@media only screen and (orientation: portrait){
+    *{
+        letter-spacing: 1px;
+    }
+}
+th{
+    background-color: #020024;
+    color: #d5363f;
+}
