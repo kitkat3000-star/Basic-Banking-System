@@ -110,30 +110,7 @@ if(isset($_POST['submit']))
 </head>
 
 <body>
-
-<aside class="side-nav" id="show-side-navigation1">
-      <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
-      <div class="heading">
-        <img src="https://thumbs.dreamstime.com/b/creative-geometric-logo-sign-orange-pink-gradient-letter-m-your-company-207530185.jpg" alt="">
-        <div class="info">
-          <h3><a href="#">Citizen bank</a></h3>
-          <p>Your transaction made easy.</p>
-        </div>
-      
-      <ul class="categories">
-        <li><i class="fa fa-home fa-fw" aria-hidden="true"></i> &emsp;<a href="index.php"> Dashboard</a>
-        
-        </li>
-        <li><i class="fa fa-money fa-fw"></i>&emsp;<a href="#">Money Transfer</a>
-      
-        </li>
-        <li><i class="fa fa-history fa-fw"></i>&emsp;<a href="TransactionHistory.php">Transaction History</a>
-        
-        </li>
-      </ul>
-    </aside>
-
-    <section id="contents">
+  
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -207,6 +184,8 @@ if(isset($_POST['submit']))
             </div>
         </form>
     </div>
-    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
